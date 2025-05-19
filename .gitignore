@@ -1,0 +1,21 @@
+# Ignore node modules
+node_modules/
+# Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore OS/user folders
+/3D Objects/
+/AppData/
+/Contacts/
+/Documents/
+/Downloads/
+/Favorites/
+/Links/
+/Music/
+/OneDrive/
+/Pictures/
+/Saved Games/
+/Searches/
+/Videos/
+/ntuser.*
+/desktop.ini
