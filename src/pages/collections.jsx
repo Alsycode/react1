@@ -67,6 +67,9 @@ const Collections = () => {
       case "high-low":
         setFilterProducts(fpCopy.sort((a, b) => b.price - a.price));
         break;
+        case "rating-high-low":
+          setFilterProducts(fpCopy.sort((a, b) => b.rating - a.rating));
+          break;
       default:
         applyFilter();
         break;
@@ -159,6 +162,8 @@ const Collections = () => {
               <option value="relevant">Sort by: Relevance</option>
               <option value="low-high">Sort by: Low to High</option>
               <option value="high-low">Sort by: High to Low</option>
+              <option value="rating-high-low">Sort by: Rating</option>
+              
             </select>
           </div>
 
