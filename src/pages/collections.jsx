@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { products } from "../assets/frontend_assets/assets";
-import ProductItem from '../components/productItem';
+import ProductItem from "../components/ProductItem"
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { IoSearch } from "react-icons/io5";
 
