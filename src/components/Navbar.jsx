@@ -8,18 +8,12 @@ const Navbar = () => {
     <div id='navvvv' className='flex px-4 sm:px-6 md:px-10 bg-gray-300 justify-between items-center py-3 sm:py-4 md:py-5 w-full'>
       <h2 className='text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800'>GenFitz</h2>
       
-      {/* Navigation Links - Hidden on small screens */}
+ 
       <ul className='hidden md:flex flex-row items-center gap-6'>
         <li className='text-2xl flex flex-col items-center gap-1 text-gray-700 hover:text-gray-900 cursor-pointer'>
           OUR COLLECTIONS
         </li>
-        {/* Uncomment these if needed */}
-        {/* <li className='text-2xl flex flex-col items-center gap-1 text-gray-700 hover:text-gray-900 cursor-pointer'>
-          About
-        </li>
-        <li className='text-2xl flex flex-col items-center gap-1 text-gray-700 hover:text-gray-900 cursor-pointer'>
-          Contacts
-        </li> */}
+      
       </ul>
 
       {/* Cart Icon - Hidden on small screens */}

@@ -145,39 +145,7 @@ const Collections = () => {
             </div>
           </div>
 
-          {/* Subcategory Filters */}
-          {/* <div className={`border border-gray-300 pl-4 sm:pl-5 py-3 mt-4 ${showFilters ? "block" : "hidden"} md:block`}>
-            <p className='mb-3 text-sm sm:text-base font-medium'>TYPE</p>
-            <div className='text-sm sm:text-base flex flex-col gap-2 font-light'>
-              <label className='flex gap-2 items-center'>
-                <input 
-                  type="checkbox" 
-                  className='w-3 sm:w-4' 
-                  value="Topwear" 
-                  onChange={toggleSubCategory}
-                />
-                Topwear
-              </label>
-              <label className='flex gap-2 items-center'>
-                <input 
-                  type="checkbox" 
-                  className='w-3 sm:w-4' 
-                  value="Bottomwear" 
-                  onChange={toggleSubCategory}
-                />
-                Bottomwear
-              </label>
-              <label className='flex gap-2 items-center'>
-                <input 
-                  type="checkbox" 
-                  className='w-3 sm:w-4' 
-                  value="Winterwear" 
-                  onChange={toggleSubCategory}
-                />
-                Winterwear
-              </label>
-            </div>
-          </div> */}
+
         </div>
 
         {/* Product Section */}
